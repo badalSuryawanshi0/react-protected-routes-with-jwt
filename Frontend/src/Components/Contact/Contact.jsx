@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center ">
+    <div className="min-h-screen flex items-center justify-center  text-black">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
         <h2 className="text-2xl font-bold text-pink-600 mb-6 text-center">Contact Us</h2>
         <form onSubmit={handleSubmit}>
